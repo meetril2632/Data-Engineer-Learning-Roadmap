@@ -9,6 +9,7 @@ y=5
 z="20"
 
 print(firstName, x)
+print(firstName, z)
 
 print(x+y)
 

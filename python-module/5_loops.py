@@ -15,4 +15,8 @@ for i in my_list:
 for i in my_list:
     print(i)
     for j in i:
-        print(j)    
+        print(j)
+
+my_new_list = ["red", "big", "tasty", "apple", "banana", "cherry"]
+for i in range(0, len(my_new_list), 2):
+    print(f"Index {i} : {my_new_list[i]}")

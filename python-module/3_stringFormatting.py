@@ -34,9 +34,9 @@ statement = "I am Meet Poshia. Meet Poshia is my name. Meet loves football. Meet
 print(statement.count("Meet"))
 
 # isnumeric(), isalnum() - alphaNumeric
-demon_str = "Meet" # False
+demo_str = "Meet" # False
 demo_var = 10 # Error - Because this function only works on string
 demo_num = "10" # True - mumber encapsulated in double inverted comma is passed.
 demo_alnum = "10abc" # True
-print(demon_str.isnumeric())
+print(demo_str.isnumeric())
 print(demo_num.isnumeric())
