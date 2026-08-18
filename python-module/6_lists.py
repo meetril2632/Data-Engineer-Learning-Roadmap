@@ -13,10 +13,10 @@ print(my_list[-1:])
 #Gap skipping/jump
 print(my_list[0::2])
 
-my_list.append("Hero") #lista are mutable and append only at last
+my_list.append("Hero") #lists are mutable and append only at last
 print(my_list)
 
-my_list.insert(1,"Hero") #lista are mutable and insert anywhere in list
+my_list.insert(1,"Hero") #lists are mutable and insert anywhere in list
 my_list.pop() #Removes last element
 my_list.remove("Meet")
 print(my_list)
@@ -30,6 +30,10 @@ print(my_list[::-1])
 
 my_list = [1,2,3,4,5,6]
 print(my_list[-5:-2])
+
+
+
+
 
 # COMPREHENSIVE LISTS
 my_list = [1,2,3,4,5,6]
